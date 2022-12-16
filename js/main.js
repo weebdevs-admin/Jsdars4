@@ -10,6 +10,11 @@ elForm.addEventListener('submit',function(evn){
         console.log("Tub son emas");
         elTitle.textContent = "Tub son emas"
     }
+    else if(num % num == 0 && num % 1 == 0){
+        console.log("tub son");
+        elTitle.textContent = "Tub son "
+    }
+
     else if(num % 3 == 0 ){
         console.log("Tub Son Emas");
         elTitle.textContent = "Tub son emas"
@@ -19,11 +24,7 @@ elForm.addEventListener('submit',function(evn){
     	console.log("Tub Son Emas")
     	elTitle.textContent = "Tub Son Emas"
     }
-    else if(num % num == 0 && num % 1 == 0){
-        console.log("tub son");
-        elTitle.textContent = "Tub son "
-    }
-    else{
+        else{
         console.log("Xato ");
         elTitle.textContent = "Xato"
     }
