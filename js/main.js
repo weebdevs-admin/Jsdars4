@@ -15,6 +15,10 @@ elForm.addEventListener('submit',function(evn){
         elTitle.textContent = "Tub son emas"
 
     }
+    else if(num % 5 == 0 || num % 7 == 0) {
+    	console.log("Tub Son Emas")
+    	elTitle.textContent = "Tub Son Emas"
+    }
     else if(num % num == 0 && num % 1 == 0){
         console.log("tub son");
         elTitle.textContent = "Tub son "
