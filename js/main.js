@@ -10,21 +10,20 @@ elForm.addEventListener('submit',function(evn){
         console.log("Tub son emas");
         elTitle.textContent = "Tub son emas"
     }
-    else if(num % num == 0 && num % 1 == 0){
-        console.log("tub son");
-        elTitle.textContent = "Tub son "
-    }
-
-    else if(num % 3 == 0 ){
+    
+    else if(num % 3 == 0 || num % 9 == 0){
         console.log("Tub Son Emas");
-        elTitle.textContent = "Tub son emas"
-
+        elTitle.textContent = "Tub son emas" 
     }
     else if(num % 5 == 0 || num % 7 == 0) {
     	console.log("Tub Son Emas")
     	elTitle.textContent = "Tub Son Emas"
     }
-        else{
+    else if(num % num == 0 && num % 1 == 0){
+        console.log("tub son");
+        elTitle.textContent = "Tub son "
+    }
+    else{
         console.log("Xato ");
         elTitle.textContent = "Xato"
     }
